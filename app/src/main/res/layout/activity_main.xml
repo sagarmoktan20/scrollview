@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+    android:id="@+id/nikeimg"
+    android:layout_width="match_parent"
+        android:layout_margin="10dp"
+
+    android:layout_height="200dp"
+    app:srcCompat="@drawable/nike" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:text="Nike, Inc.** is an American multinational corporation that is engaged in the design, development, manufacturing, and worldwide marketing and sales of footwear, apparel, equipment, accessories, and services. The company is headquartered near Beaverton, Oregon, in the Portland metropolitan area. It is the world's largest supplier of athletic shoes and apparel and a major manufacturer of sports equipment.
+Nike was founded in 1964 as Blue Ribbon Sports by Phil Knight and Bill Bowerman, two University of Oregon track athletes. The company's first product was a running shoe called the Nike Cortez. In 1971, the company changed its name to Nike, In
+Nike has a wide range of products, including running shoes, basketball shoes, training shoes, casual shoes, apparel, and accessories. The company also sells sports equipment, such as soccer balls, basketballs, and golf clubs. Nike products are sold in more than 170 countries around the world.
+Nike is a global brand and is one of the most valuable brands in the world. The company has a strong marketing presence and sponsors many athletes and sports teams. Nike is also involved in a number of charitable initiatives, such as the Nike Foundation, which supports programs to improve the lives of children in developing countries."
+            />
+
+    </ScrollView>
+
+
+
+
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:srcCompat="@drawable/nike" />
+
+
+</LinearLayout>
